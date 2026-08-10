@@ -19,6 +19,7 @@
 
 - [Overview](#overview)
 - [Specifications](#specifications)
+- [Samples](#samples)
 - [Repository layout](#repository-layout)
 - [Resources](#resources)
 - [Where to Buy](#where-to-buy)
@@ -46,6 +47,12 @@ Current module version: **AM110Q126294LK1**. Electrical and mechanical details f
 
 > Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
+## Samples
+
+| Description | Path |
+| ----------- | ---- |
+| ESP32-S3 · ICNA3306 SPI + CHSC6417 touch + LVGL (Widgets Demo) | [`examples/1.1AMOLED/`](./examples/1.1AMOLED/) |
+
 ## Repository layout
 
 ```text
@@ -63,6 +70,10 @@ Current module version: **AM110Q126294LK1**. Electrical and mechanical details f
 | Resource | Link |
 | -------- | ---- |
 | Product datasheet (AM110Q126294LK1) | [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf) |
+
+### Samples
+
+- [ESP32-S3 ICNA3306 SPI + CHSC6417 + LVGL](./examples/1.1AMOLED/)
 
 ## Where to Buy
 
