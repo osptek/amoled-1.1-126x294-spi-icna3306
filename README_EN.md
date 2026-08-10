@@ -13,6 +13,8 @@
   <img alt="Driver: ICNA3306" src="https://img.shields.io/badge/Driver-ICNA3306-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 1.1&quot; 126×294 AMOLED SPI module (ICNA3306) product image" src="./images/product.png" width="640" /></p>
+
 ## Contents
 
 - [Overview](#overview)
