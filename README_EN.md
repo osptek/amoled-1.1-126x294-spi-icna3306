@@ -20,6 +20,7 @@
 - [Overview](#overview)
 - [Specifications](#specifications)
 - [Repository layout](#repository-layout)
+- [Resources](#resources)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -31,7 +32,7 @@ OSPTEK **1.1″ 126×294 AMOLED** is a **SPI** color display module driven by **
 
 Repo id: `1.1-amoled-126x294-spi-icna3306`
 
-Electrical and mechanical details will follow the product datasheet once it is added under `docs/`.
+Current module version: **AM110Q126294LK1**. Electrical and mechanical details follow [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf).
 
 ## Specifications
 
@@ -56,6 +57,12 @@ Electrical and mechanical details will follow the product datasheet once it is a
 ├── docs/            # datasheets, init files
 └── examples/        # sample projects
 ```
+
+## Resources
+
+| Resource | Link |
+| -------- | ---- |
+| Product datasheet (AM110Q126294LK1) | [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf) |
 
 ## Where to Buy
 
