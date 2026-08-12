@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 1.1″ AMOLED 126×294 (ICNA3306 · SPI)</h1>
 
-<p align="center"><b>Bar AMOLED · SPI · ICNA3306</b></p>
+<p align="center"><b>Bar AMOLED · SPI · ICNA3306 · Multi-Version Index</b></p>
 
-<p align="center">English | <a href="./README.md">简体中文</a></p>
+<p align="center"><a href="./README.md">简体中文</a> | English</p>
 
 <p align="center">
   <img alt="Size: 1.1 inch" src="https://img.shields.io/badge/Size-1.1%22-3498DB?style=flat-square" />
@@ -13,67 +13,51 @@
   <img alt="Driver: ICNA3306" src="https://img.shields.io/badge/Driver-ICNA3306-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 1.1&quot; 126×294 AMOLED SPI module (ICNA3306) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Samples](#samples)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
+- [About](#about)
+- [Versions](#versions)
+- [AM110Q126294LK1](#am110q126294lk1)
+- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **1.1″ 126×294 AMOLED** is a **SPI** color display module driven by **ICNA3306**. The tall aspect ratio suits bar HMIs, side status strips, and compact info panels.
+This repository holds materials for the **1.1″ 126×294 AMOLED (SPI · ICNA3306)** module family.
+
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
 Repo id: `1.1-amoled-126x294-spi-icna3306`
 
-Current module version: **AM110Q126294LK1**. Electrical and mechanical details follow [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf).
+---
 
-## Specifications
+## Versions
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 1.1 inch |
-| Type | AMOLED (color) |
-| Resolution | 126×294 |
-| Interface | SPI |
-| Driver IC | ICNA3306 |
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| AM110Q126294LK1 | <img alt="AM110Q126294LK1" src="./images/AM110Q126294LK1.png" width="120" /> | [Details](#am110q126294lk1) |
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+---
 
-## Samples
+## AM110Q126294LK1
 
-| Description | Path |
-| ----------- | ---- |
-| ESP32-S3 · ICNA3306 SPI + CHSC6417 touch + LVGL (Widgets Demo) | [`examples/1.1AMOLED/`](./examples/1.1AMOLED/) |
+<p align="center"><img alt="AM110Q126294LK1" src="./images/AM110Q126294LK1.png" width="320" /></p>
 
-## Repository layout
+**Notes:** Bar AMOLED; with touch (CHSC6417).
 
-```text
-1.1-amoled-126x294-spi-icna3306/
-├── README.md
-├── README_EN.md
-├── LICENSE
-├── images/          # README images
-├── docs/            # datasheets, init files
-└── examples/        # sample projects
-```
+---
 
-## Resources
+## How to Switch Branches
 
-| Resource | Link |
-| -------- | ---- |
-| Product datasheet (AM110Q126294LK1) | [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf) |
+Full product materials are on each **version branch**; `main` is navigation only.
 
-### Samples
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-- [ESP32-S3 ICNA3306 SPI + CHSC6417 + LVGL](./examples/1.1AMOLED/)
+---
 
 ## Where to Buy
 
@@ -91,13 +75,15 @@ Current module version: **AM110Q126294LK1**. Electrical and mechanical details f
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical Support / Sales: <luyu@osptek.com>
-- QQ Technical Group: **985881096**
+- Tech / product: <luyu@osptek.com>
+- QQ group: **985881096**
 - Website: <https://osptek.com/>
 - Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>

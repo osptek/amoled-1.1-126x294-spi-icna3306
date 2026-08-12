@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 1.1″ AMOLED 126×294（ICNA3306 · SPI）</h1>
 
-<p align="center"><b>条形 AMOLED · SPI · ICNA3306</b></p>
+<p align="center"><b>条形 AMOLED · SPI · ICNA3306 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -13,67 +13,51 @@
   <img alt="Driver: ICNA3306" src="https://img.shields.io/badge/Driver-ICNA3306-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 1.1 寸 126×294 AMOLED SPI 模组（ICNA3306）宣传图" src="./images/product.png" width="640" /></p>
-
 ## 目录
 
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [示例工程](#示例工程)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [版本一览](#版本一览)
+- [AM110Q126294LK1](#am110q126294lk1)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 产品简介
+## 说明
 
-OSPTEK **1.1 寸 126×294 AMOLED** 是一款 **SPI** 接口彩色显示模组，驱动芯片为 **ICNA3306**。细长分辨率适合条形 HMI、侧边状态条与紧凑信息面板等场景。
+本仓库收录 **1.1 寸 126×294 AMOLED（SPI · ICNA3306）** 显示模组资料。
+
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`1.1-amoled-126x294-spi-icna3306`
 
-当前模组版本：**AM110Q126294LK1**。电气与外形细节以 [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf) 为准。
+---
 
-## 规格参数
+## 版本一览
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 1.1 英寸 |
-| 类型 | AMOLED（彩色） |
-| 分辨率 | 126×294 |
-| 接口 | SPI |
-| 驱动 IC | ICNA3306 |
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| AM110Q126294LK1 | <img alt="AM110Q126294LK1" src="./images/AM110Q126294LK1.png" width="120" /> | [查看详情](#am110q126294lk1) |
 
-> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+---
 
-## 示例工程
+## AM110Q126294LK1
 
-| 说明 | 路径 |
-| ---- | ---- |
-| ESP32-S3 · ICNA3306 SPI + CHSC6417 触摸 + LVGL（Widgets Demo） | [`examples/1.1AMOLED/`](./examples/1.1AMOLED/) |
+<p align="center"><img alt="AM110Q126294LK1" src="./images/AM110Q126294LK1.png" width="320" /></p>
 
-## 仓库结构
+**说明：** 条形 AMOLED，带触摸（CHSC6417）。
 
-```text
-1.1-amoled-126x294-spi-icna3306/
-├── README.md
-├── README_EN.md
-├── LICENSE
-├── images/          # README 用图
-├── docs/            # 规格书、驱动手册、初始化等
-└── examples/        # 示例工程
-```
+---
 
-## 相关资料
+## 如何切换分支
 
-| 资料 | 链接 |
-| ---- | ---- |
-| 产品规格书（AM110Q126294LK1） | [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf) |
+完整产品资料在各**版本分支**中；`main` 仅作导航。
 
-### 示例工程
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
 
-- [ESP32-S3 ICNA3306 SPI + CHSC6417 + LVGL](./examples/1.1AMOLED/)
+---
 
 ## 购买链接
 
@@ -90,6 +74,8 @@ OSPTEK **1.1 寸 126×294 AMOLED** 是一款 **SPI** 接口彩色显示模组，
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 
