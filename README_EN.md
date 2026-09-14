@@ -29,7 +29,7 @@ This repository holds materials for the **1.1″ 126×294 AMOLED (SPI · ICNA330
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `1.1-amoled-126x294-spi-icna3306`
+Repo id: `amoled-1.1-126x294-spi-icna3306`
 
 ---
 

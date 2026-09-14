@@ -31,7 +31,7 @@
 
 OSPTEK **1.1 寸 126×294 AMOLED** 是一款 **SPI** 接口彩色显示模组，驱动芯片为 **ICNA3306**。细长分辨率适合条形 HMI、侧边状态条与紧凑信息面板等场景。
 
-规格标识（仓库名）：`1.1-amoled-126x294-spi-icna3306`
+规格标识（仓库名）：`amoled-1.1-126x294-spi-icna3306`
 
 当前模组版本：**AM110Q126294LK1**。电气与外形细节以 [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf) 为准。
 
@@ -56,7 +56,7 @@ OSPTEK **1.1 寸 126×294 AMOLED** 是一款 **SPI** 接口彩色显示模组，
 ## 仓库结构
 
 ```text
-1.1-amoled-126x294-spi-icna3306/                                # 仓库根（导航见 ../../README.md）
+amoled-1.1-126x294-spi-icna3306/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── AM110Q126294LK1/                                # 本料号完整资料
         ├── README.md

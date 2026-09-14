@@ -31,7 +31,7 @@
 
 OSPTEK **1.1″ 126×294 AMOLED** is a **SPI** color display module driven by **ICNA3306**. The tall aspect ratio suits bar HMIs, side status strips, and compact info panels.
 
-Repo id: `1.1-amoled-126x294-spi-icna3306`
+Repo id: `amoled-1.1-126x294-spi-icna3306`
 
 Current module version: **AM110Q126294LK1**. Electrical and mechanical details follow [`docs/AM110Q126294LK1.pdf`](./docs/AM110Q126294LK1.pdf).
 
@@ -56,7 +56,7 @@ Current module version: **AM110Q126294LK1**. Electrical and mechanical details f
 ## Repository layout
 
 ```text
-1.1-amoled-126x294-spi-icna3306/                                # repo root (nav: ../../README_EN.md)
+amoled-1.1-126x294-spi-icna3306/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── AM110Q126294LK1/                                # full materials for this part number
         ├── README.md
