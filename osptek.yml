@@ -5,7 +5,7 @@ size: "1.1"
 panel: amoled
 resolution: 126x294
 interface: [spi]
-shape: bar
+shape: rect
 
 versions:
   - id: AM110Q126294LK1
