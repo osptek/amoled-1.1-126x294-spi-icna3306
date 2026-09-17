@@ -1,0 +1,14 @@
+id: amoled-1.1-126x294-spi-icna3306
+category: displays
+
+size: "1.1"
+panel: amoled
+resolution: 126x294
+interface: [spi]
+shape: bar
+
+versions:
+  - id: AM110Q126294LK1
+    driver: ICNA3306
+    touch: CHSC6417
+    note: Bar AMOLED
